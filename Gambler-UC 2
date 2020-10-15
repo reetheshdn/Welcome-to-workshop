@@ -16,7 +16,7 @@ public class Gambler {
       }
         public static void main(String[] args) {
            System.out.println("Welcome to gambling");
-           result obj = new result();
-           obj.result();
+           result gm = new result();
+           gm.result();
        }
   }
