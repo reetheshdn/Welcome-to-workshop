@@ -5,7 +5,7 @@ public class Gambler {
     public ststic int FINAL BET = 1;
     
     public static void result(){
-    int check =(int) (Math.floor(Math.random() * 10) % 3);
+    int check =(int) (Math.floor(Math.random() * 10) % 2);
      if (random==0)
      {
     	System.out.println("Win");
