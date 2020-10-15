@@ -4,7 +4,7 @@ public class Gambler {
     public final int STAKE = 100;
     public final int BET = 1;
     
-    public static void result(){
+    public static void winOrLoss(){
       int random =(int) (Math.floor(Math.random() * 10) % 2);
       if (random==0)
       {
@@ -17,6 +17,6 @@ public class Gambler {
         public static void main(String[] args) {
            System.out.println("Welcome to gambling");
            Gambler gm = new Gambler();
-           gm.result();
+           gm.winOrLoss();
        }
   }
