@@ -1,14 +1,17 @@
-package com.gambler.simulation;
+package com.simulation.gambler;
 
 public class Gambler {
 
     public static void main(String[] args) {
-    public final STAKE = 100;
-    public final BET = 1;
+    public FINAL STAKE = 100;
+    public FINAL BET = 1;
     System.out.println("Welcome to gambling");
+    result obj = new result();
+    obj.result();
     
-    public class Bet(){    
-    if (bet>1)
+    public class result(){
+    int check =(int) (Math.floor(Math.random() * 10) % 3)
+    if (random==0)
     {
     	System.out.println("Win");
     }
