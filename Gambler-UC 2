@@ -1,0 +1,19 @@
+package com.gambler.simulation;
+
+public class Gambler {
+
+    public static void main(String[] args) {
+    public final STAKE = 100;
+    public final BET = 1;
+    System.out.println("Welcome to gambling");
+    
+    public class Bet(){    
+    if (bet>1)
+    {
+    	System.out.println("Win");
+    }
+    else
+    {
+    	System.out.println("lose");
+    }
+    }
