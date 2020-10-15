@@ -1,8 +1,8 @@
 package com.simulation.gambler;
 
 public class Gambler {
-    public static int final STAKE = 100;
-    public static int final BET = 1;
+    public final int STAKE = 100;
+    public final int BET = 1;
     
     public static void result(){
       int check =(int) (Math.floor(Math.random() * 10) % 2);
